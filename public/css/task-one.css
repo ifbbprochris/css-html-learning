@@ -1,0 +1,11 @@
+#task-one div p {
+    font-size:14px;
+    font-weight:bold;
+    color:#FFF;
+}
+
+#one {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}

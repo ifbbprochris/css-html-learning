@@ -1,0 +1,22 @@
+{
+    "name": "css-html-learning",
+    "version": "1.0.0",
+    "description": "This a project for learning css and html",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChrisFuck/css-html-learning.git"
+    },
+    "author": "chris",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ChrisFuck/css-html-learning/issues"
+    },
+    "homepage": "https://github.com/ChrisFuck/css-html-learning#readme",
+    "dependencies": {
+        "express": "^4.15.2"
+    }
+}
