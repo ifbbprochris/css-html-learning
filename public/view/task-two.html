@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>task-two</title>
+        <base href="">
+        <link rel="stylesheet" href="../css/task-two.css" type="text/css">
+    </head>
+    <body>
+        <div class="magic-box">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </body>
+    <script>
+        (function(){
+            function getRandomColor(){
+              return  '#' +
+                (function(color){
+                return (color +=  '0123456789abcdef'[Math.floor(Math.random()*16)])
+                  && (color.length == 6) ?  color : arguments.callee(color);
+              })('');
+            }
+            var items = document.getElementsByClassName('item');
+            for(var i = 0;i<items.length;i++){
+                items[i].style.background = getRandomColor();
+            }
+        })();
+    </script>
+</html>

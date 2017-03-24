@@ -17,6 +17,8 @@
     },
     "homepage": "https://github.com/ChrisFuck/css-html-learning#readme",
     "dependencies": {
-        "express": "^4.15.2"
+        "express": "^4.15.2",
+        "gulp": "^3.9.0",
+        "browser-sync": "2.17.5"
     }
 }
